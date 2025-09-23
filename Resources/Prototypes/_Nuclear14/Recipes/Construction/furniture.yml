@@ -1,6 +1,8 @@
 # Beds
 - type: construction
   id: N14Bed
+
+
   graph: N14Bed
   startNode: start
   targetNode: bed
@@ -14,9 +16,24 @@
 
 - type: construction
   id: N14BedWood
+
+
   graph: N14Bed
   startNode: start
   targetNode: bedwood
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+  hide: false
+
+- type: construction
+  id: N14MedicalBed
+  graph: bed
+  startNode: start
+  targetNode: medicalbed
   category: construction-category-furniture
   objectType: Structure
   placementMode: SnapgridCenter

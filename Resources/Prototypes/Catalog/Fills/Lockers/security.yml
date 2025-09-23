@@ -84,7 +84,7 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
-      - id: WeaponEnergyShotgun
+      - id: WardenGunCase  #Omu
       #- id: WeaponDisabler #Goobstation (Disablers in belts)
       - id: ClothingBeltSecurityFilled
       - id: ClothingHandsGlovesKravMaga # Goobstation - Martial Arts
@@ -120,7 +120,7 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
-      - id: WeaponEnergyShotgun # Goobstation
+      - id: WardenGunCase # Omu
       #- id: WeaponDisabler #Goobstation (Disablers in belts)
       - id: ClothingBeltSecurityFilled
       - id: ClothingHandsGlovesKravMaga # Goobstation - Martial Arts
@@ -186,14 +186,7 @@
   components:
   - type: StorageFill
     contents: # heavily good edited
-#      - id: BoxAutoinjectorCartidges  REPLACED WITH BELOW CARTS DURING SIZE CHANGE, FUCK STORAGEFILLBRO # Goobstation start
-      - id: CartridgeSaline
-        amount: 3
-      - id: CartridgeBicaridine
-        amount: 3
-      - id: CartridgeDermaline
-        amount: 3
-# Goobstation end
+      - id: BoxAutoinjectorCartidges
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingHandsGlovesLatex
       - id: ClothingOuterHardsuitBrigmedic
