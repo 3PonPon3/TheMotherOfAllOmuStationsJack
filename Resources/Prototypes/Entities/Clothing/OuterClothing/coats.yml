@@ -142,7 +142,10 @@
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
-
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
+  
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
   id: ClothingOuterCoatDetective
@@ -203,6 +206,9 @@
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   abstract: true
@@ -282,6 +288,9 @@
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHatHoodChaplainHood
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -293,8 +302,8 @@
     sprite: Clothing/OuterClothing/Coats/trenchcoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/trenchcoat.rsi
-  - type: TemperatureProtection
-    heatingCoefficient: 0.1
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
     coolingCoefficient: 0.1
   - type: Armor
     coverage:
