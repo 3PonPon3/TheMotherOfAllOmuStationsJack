@@ -64,6 +64,9 @@
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanBrown
@@ -75,6 +78,9 @@
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanRed
@@ -86,6 +92,9 @@
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanMagenta
@@ -97,6 +106,9 @@
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
+  - type: TemperatureProtection # Omustation - winterdrobe drip now has temp prot, exact same as winter coats
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
 
 - type: entity
   id: ClothingOuterCoatBomberPinkSleeves
